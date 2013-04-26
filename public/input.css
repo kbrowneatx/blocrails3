@@ -1,0 +1,124 @@
+/* external stylesheet for input */
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #787878;
+}
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	font-family: 'Courier New', courier, monotype;
+	font-size: 3em;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: .1em;
+}
+h2 {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #996666;
+}
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+#wrapper {
+	width: 980px;
+	margin: 0 auto;
+	padding: 0;
+}
+#header {
+	width: 980px;
+	text-align: center;
+	color: white;
+	background-color: #999966;
+}
+#page {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+#page-bgtop {
+	padding: 5px 20px;
+}
+#page-bgbtm {
+}
+#entrypg {
+	width: 920px;
+	padding: 0;
+	color: #999966;
+	background-color: #ebebe0;
+	display: block;
+	border: 1px solid #999966;
+}
+#entrypg h2 {
+	height: 42px;
+	padding: 8px 0 0 20px;
+	letter-spacing: -.5px;
+	text-align: left;
+	color: #999966;
+}
+#entrypg p {
+	line-height: 15px;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+#entrypg label {
+	font: 13px/20px Arial, Helvetica, sans-serif;
+	width: 13em;
+	float: left;
+	text-align: right;
+	margin-right: 2em;
+}
+#entrypg input {
+	color: #4D704D;
+	background: #fafafa;
+	border: 1px solid #cfcfcf;
+}
+.button1 {
+	color: #000;
+	background: #ebebe0;
+	border: 1px solid #999966;
+	margin-left: 16.4em;
+	border: 1px solid #999966;
+} 
+.chkbox {
+	margin-left: 15em;
+}
+#entrypg select {
+	color: #4D704D;
+	background: #fafafa;
+	border: 1px solid #cfcfcf;
+}
+#entrypg textarea {
+	background: #fafafa;
+	border: 1px solid #cfcfcf;
+	font: 12px courier;
+	color: #4D704D;
+}
+#footer {
+	width: 960px;
+	background: #474036;
+	height: 50px;
+	margin: 0 auto;
+	padding: 0px 0 15px 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#footer p {
+	margin: 0;
+	padding-top: 20px;
+	line-height: normal;
+	font-size: 9px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #E1F5A6;
+}
+#footer a {
+	color: #FFFFFF;
+}

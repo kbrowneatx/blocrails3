@@ -1,0 +1,36 @@
+<html>
+<head>
+	<title>Sinatra Blog App</title>
+	<link rel='stylesheet' href='/input.css' type='text/css'>
+</head>
+<body>
+	<div id='header'>
+		<h1>TurboHistory</h1>
+		<p>Musings on WW2 at Internet Speed</p>
+		<div id='nav'>
+			<ul>
+				<li><a href='#'>Home</a></li>
+				<li><a href='#'>Land</a></li>
+				<li><a href='#'>Air</a></li>
+				<li><a href='#'>Sea</a></li>
+				<li>&emsp; &emsp; &emsp; &emsp;</li>
+				<li><a href='#'>About</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id='wrapper'>
+		<div id='page'>
+		<div id='page-bgtop'>
+		<div id='page-bgbtm'>				
+			<div id='entrypg'>
+				<%= yield %>
+			</div>
+		</div>
+		</div>
+		</div>
+		<div id='footer'>
+			<p>Copyright (c) 2013 fakeblogspot.com. All rights reserved. Site Design inspired by <a href='http://www.freecsstemplates.org/'>Free CSS Templates</a>.<br />
+		</div>
+	</div>
+</body>
+</html>

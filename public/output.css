@@ -1,0 +1,140 @@
+#wrapper {
+	width: 1200px;
+	margin: 0 auto;
+	background-color: #f2f2f2;
+}
+a { text-decoration:none; }
+a:visited { text-decoration:none; }
+
+header {
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	color: #ccc;
+	background-color: #333;
+}
+header h1 {
+	font: 36px bold serif;
+	text-align: center;
+}
+header p {
+	font: 16px/30px italic serif;
+	text-align: center;
+}
+nav {
+	clear: left;
+	margin: 0;
+	padding: 0;
+	font: 16px/30px bold san-serif;
+	color: #ccc;
+	background-color: #333;
+}
+nav ul {
+	margin-left: 140px;
+	margin-bottom: .5em;
+	list-style: none;
+	padding: .5em 2em .5em 0;
+}
+nav li {
+	display: inline;
+	padding: 0 3em;
+	border-right: 1px dotted #b6b6b6;
+	font-weight: bold;
+}
+nav a { 
+	color: #ccc;
+	text-decoration: none; 
+}
+nav a:hover{ 
+	color: #fff;
+	text-decoration: none; 
+}
+section {
+	margin-left: 80px;
+	width: 1050px;
+	background-color: #fcfcfc;
+}
+article {
+	border-bottom: 1px dashed #ccc;
+	width:500px;
+	padding: 10px 20px 40px 20px;
+	float: right;
+	background-color: #fcfcfc;
+}
+article h1 {
+	font: 24px bold serif;
+	color: black;
+	margin-left: 1em;
+}
+article img {
+	width: 460px;
+	margin-left: 1em;
+	border: 1px solid #5c5c3d;
+}
+article p {
+	font: 16px/26px 'Arial', sans-serif;			
+	margin-left: 1em;
+	text-align: justify;
+}
+.byline {
+	font: 14px/22px italic sans-serif;			
+	padding: .5em 1em .5em 1em;
+	text-align: center;
+	color: #996;
+}
+aside {
+	width: 250px;
+	float: right;
+	padding-left:40px;
+	margin-top: 20px;
+	margin-right: 30px;
+}
+aside ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+aside h2 {
+	font: 14px/24px 'Arial', sans-serif;
+	color: #fff;
+	background-color: #e6e6e6;
+	border: 1px solid #b2b2b2;
+	padding: .1em 0 .1em .5em;
+}
+aside li {
+	margin: 0;
+	padding: 0;
+}
+aside li ul {
+	padding-bottom: 15px;
+}
+aside li li {
+	line-height: 25px;
+	border-bottom: 1px dotted #ccc;
+	padding-left: 15px;
+}
+aside li li span {
+	display: block;
+	margin-top: 0px;
+	line-height:15px;
+	padding: 0;
+	font-size: 11px;
+	font-style: italic;
+}
+aside p {
+	margin: 0 0px;
+	padding: 0px 20px 20px 10px;
+	text-align: justify;
+}
+aside a {
+	color: #787878;
+	border: none;
+}
+aside a:hover {
+	color: #ffffff;
+	background-color: #787878;
+	font-weight: bold;
+}
+aside img {
+	padding: 10px;
+}

@@ -1,0 +1,64 @@
+<html>
+<head>
+	<link rel='stylesheet' href='output.css'>
+</head>
+<body>
+	<header>
+		<h1>TurboHistory</h1>
+		<p>Musings on WW2 at Internet Speed</p>
+		<nav>
+			<ul>
+				<li><a href='#'>Home</a></li>
+				<li><a href='#'>Land</a></li>
+				<li><a href='#'>Air</a></li>
+				<li><a href='#'>Sea</a></li>
+				<li>&emsp; &emsp; &emsp; &emsp;</li>
+				<li><a href='#'>About</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div id='wrapper'>
+		<section>
+			<aside>
+				<h2>Today's Sponsor</h2>
+				<img src='http://placehold.it/200x200'>		
+			  <ul>
+			   <li>
+				<h2>Web Links</h2>
+				<ul>
+				   <li><a href='http://www.britannica.com/EBchecked/topic/648813/World-War-II'>Encyclopedia Brittanica on WW2</a></li>
+				   <li><a href='http://www.history.com/topics/world-war-ii'>History Channel's WW2 Content</a></li>
+				   <li><a href='http://www.worldwar-2.net/index.htm'>worldwar-2.net: timelines</a></li>
+				   <li><a href='http://www.bbc.co.uk/history/worldwars/wwtwo/'>BBC's WW2 Portal</a></li>
+				   <li><a href='http://aerial.rcahms.gov.uk/database/record.php?usi=006-000-000-013-C&scache=2mhqa4ifj9&searchdb=tara_scran'>D-Day Aerial Photos</a></li>
+				</ul>
+			   </li>
+			   <li>
+				<h2>Further Reading</h2>
+				<ul>
+				   <li><a href='http://www.amazon.com/Second-World-War-Complete-History/dp/0805076239/ref=sr_1_1?s=books&ie=UTF8&qid=1366575626&sr=1-1&keywords=martin+gilbert'>'Second World War' by M. Gilbert</a></li>
+				   <li><a href='http://www.amazon.com/Inferno-World-War-1939-1945-Vintage/dp/0307475530/ref=sr_1_1?s=books&ie=UTF8&qid=1366575711&sr=1-1&keywords=max+hastings+inferno'>'Inferno' by M. Hastings</a></li>
+				   <li><a href='http://www.history.army.mil/armyhistory/issues_complete_guide.html'>Army History Magazine</a></li>
+				   <li><a href='http://www.historynet.com/magazines/world_war_ii'>World War II Magazine</a></li>
+				</ul>
+			   </li>
+			   <li>
+				<ul>
+				 <h2>Quotes</h2>
+				   <li><span><p>Let us therefore brace ourselves to our duties, and so bear ourselves that if the British Empire and its Commonwealth last for a thousand years, men will still say, 'This was their finest hour.'</p>
+				   --Winston Churchill</p></span></li>
+				</ul>
+			   </li>
+			  </ul>
+			</aside>
+			<article>
+				<h1>#{params[:title]}</p>
+				<img src='http://placehold.it/460x250'>
+				<p>#{params[:blogpost]}</p>
+				<p class='byline'>posted by #{params[:poster]} &emsp; | &emsp; #{ Time.now.asctime }</p>
+			</article>
+		</section>
+	</div>
+	
+</body>
+</html>
