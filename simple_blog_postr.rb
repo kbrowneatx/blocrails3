@@ -36,5 +36,5 @@ post '/printpost' do
 	bpost.picture = "<img src='http://placehold.it/460x250'>"
 	bpost.post_date = Time.now.asctime
 	bpost.save
-	redirect '/' #{ bpost.id }
+	redirect "/#{bpost.id}"
 end

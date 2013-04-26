@@ -6,7 +6,7 @@
 body {
 	background: #FFFFFF;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
+	font-size: 12px/20px;
 	color: #787878;
 }
 h1, h2, h3 {
@@ -34,34 +34,36 @@ h2 {
 	text-align: center;
 }
 #header p {
-	font: 16px/30px italic serif;
+	font-size: 16px;
 	text-align: center;
+	padding-bottom: 1em;
 }
-#nav {
+nav {
 	clear: left;
 	margin: 0;
 	padding: 0;
-	font: 16px/30px bold san-serif;
 	color: #ccc;
 	background-color: #333;
 }
-#nav ul {
+nav ul {
 	margin-left: 90px;
 	margin-bottom: .5em;
 	list-style: none;
 	padding: .5em 2em .5em 0;
 }
-#nav li {
+nav li {
 	display: inline;
 	padding: 0 3em;
 	border-right: 1px dotted #b6b6b6;
-	font-weight: bold;
 }
-#nav a { 
+nav a { 
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: bold;
 	color: #ccc;
 	text-decoration: none; 
 }
-#nav a:hover{ 
+nav a:hover{ 
 	color: #fff;
 	text-decoration: none; 
 }
@@ -91,50 +93,46 @@ h2 {
 	display: block;
 	border: 1px solid #999966;
 }
-#entrypg h2 {
-	height: 42px;
-	padding: 8px 0 0 20px;
-	letter-spacing: -.5px;
-	text-align: left;
-	color: #999966;
-}
 #entrypg p {
-	line-height: 15px;
-	margin-left: 20px;
-	margin-right: 10px;
+	margin-left: 25px;
+	padding-bottom: 1em;
 }
 #entrypg label {
-	font: 13px/20px Arial, Helvetica, sans-serif;
-	width: 13em;
+	font: 13px/36px Arial, Helvetica, sans-serif;
+	width: 200px;
 	float: left;
+	display: block;
+	clear: left;
 	text-align: right;
-	margin-right: 2em;
+	margin: 0 20px 5px 10px;
 }
 #entrypg input {
 	color: #4D704D;
+	float: left;
 	background: #fafafa;
 	border: 1px solid #cfcfcf;
+	margin: 6px 20px 5px 10px;
 }
 .button1 {
 	color: #000;
 	background: #ebebe0;
 	border: 1px solid #999966;
-	margin-left: 16.4em;
-	border: 1px solid #999966;
+	margin-left: 300px;
 } 
-.chkbox {
-	margin-left: 15em;
-}
 #entrypg select {
 	color: #4D704D;
 	background: #fafafa;
 	border: 1px solid #cfcfcf;
+	float: left;
+	margin: 6px 20px 5px 10px;
 }
 #entrypg textarea {
 	background: #fafafa;
 	border: 1px solid #cfcfcf;
 	font: 12px courier;
 	color: #4D704D;
+	float: left;
+	margin: 6px 20px 5px 10px;
 }
 article {
 	border-bottom: 1px dashed #ccc;
@@ -190,7 +188,7 @@ aside li ul {
 	padding-bottom: 15px;
 }
 aside li li {
-	line-height: 25px;
+	font: 11px/25px 'Arial', sans-serif;
 	border-bottom: 1px dotted #ccc;
 	padding-left: 15px;
 }
@@ -210,6 +208,7 @@ aside p {
 aside a {
 	color: #787878;
 	border: none;
+	text-decoration: none;
 }
 aside a:hover {
 	color: #ffffff;
@@ -220,6 +219,7 @@ aside img {
 	padding: 10px;
 }
 #footer {
+	clear: both;
 	width: 960px;
 	background: #474036;
 	height: 50px;
